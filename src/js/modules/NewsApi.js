@@ -14,7 +14,7 @@ export default class NewsApi {
     const {dateFrom, dateTo} = DateConverter.getDatesForApiReq();
 
     return fetch(
-      `${this.PROXY_NEWS_API}` +
+      // `${this.PROXY_NEWS_API}` +
       `${this.URL_NEWS_API}?` +
       `q=${keyWord}&` +
       `from=${dateFrom}&` +
